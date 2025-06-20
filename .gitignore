@@ -1,0 +1,20 @@
+# Python specific
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+.env.*
+!/.env.template
+
+# Data and Reports - Ignoring the contents of these directories
+database/*
+reports/*
+
+# Keep the directories, but ignore their contents. 
+# You can remove these lines if you don't need the empty directories in the repo.
+!database/.gitkeep
+!reports/.gitkeep
+
+# IDE settings
+.vscode/
